@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 #bootstrap-css
 gem 'bootstrap-sass'
 
+#devise
+gem 'devise'
+
 #mysql
 gem 'mysql2'
 
