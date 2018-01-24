@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :products
+  resources :products
   devise_for :administrators
   resources :administrators
   devise_for :sellers
