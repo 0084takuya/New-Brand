@@ -6,20 +6,21 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
 
   <body>
-      <div id="header-fixed">
-        <div id="header-bk">
-          <div id="header"><div class="header">Riku Brand</div></div>
+      <div class="container bg-secondary col-12">
+        <div class="row">
+          <div class="col-12">Riku Brand</div>
         </div>
       </div>
-      <div id="body-bk">
-        <div id="body"><%= yield %></div>
+      <div class="container col-12 mx-0">
+        <div class="row"><%= yield %></div>
       </div>
-      <div id="footer-fixed">
-        <div id="footer-bk">
-          <div id="footer">@copyrights</div>
+      <div class="container col-12">
+        <div class="row">
+          <div class="col-12 text-center">@copyrights</div>
         </div>
       </div>
   </body>
